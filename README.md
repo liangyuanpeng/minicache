@@ -1,2 +1,0 @@
-# minicache
-infrastructure for cache
