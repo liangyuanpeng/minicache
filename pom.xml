@@ -15,6 +15,28 @@
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>liangyuanpeng</name>
+			<email>gcslyp@gmail.com</email>
+		</developer>
+	</developers>
+	<scm>
+		<connection>
+			scm:git:https://github.com/liangyuanpeng/minicache.git
+		</connection>
+		<developerConnection>
+			scm:git:https://github.com/liangyuanpeng/minicache.git
+		</developerConnection>
+		<url>https://github.com/liangyuanpeng/minicache</url>
+	</scm>
+
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
