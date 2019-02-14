@@ -8,7 +8,7 @@
 		<!--<version>2.1.2.RELEASE</version>-->
 		<!--<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
 	<!--</parent>-->
-	<groupId>com.lan</groupId>
+	<groupId>com.github.liangyuanpeng</groupId>
 	<artifactId>minicache-spring-boot-starter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>minicache</name>
