@@ -112,10 +112,10 @@ public class ReflectorUtils {
 	/**
      * 以文件的形式来获取包下的所有Class
      *
-     * @param packageName
-     * @param packagePath
-     * @param recursive
-     * @param classes
+     * @param packageName 包名
+     * @param packagePath 包路径
+     * @param recursive 是否
+     * @param classes 类
      */
     public static void findAndAddClassesInPackageByFile(String packageName,
             String packagePath, final boolean recursive, Set<Class<?>> classes) {

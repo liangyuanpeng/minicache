@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
  * </p>
  * 
  * @author liangyuanpeng
- * @date 2018-05-23 17:43:25
+ * @since 2018-05-23 17:43:25
  */
 public abstract class AbstractDemandSchedule {
 	
@@ -75,7 +75,7 @@ public abstract class AbstractDemandSchedule {
 	private  ScheduledFuture<?> init(long initialDelay, long delay, TimeUnit unit) {
 
 		return SCHEDULE_EXECUTOR.scheduleWithFixedDelay(new Runnable() {
-			@Override
+//			@Override
 			public void run() {
 				try {
 					logger.debug(className +".process begin!");
