@@ -10,7 +10,7 @@
 	<!--</parent>-->
 	<groupId>com.github.liangyuanpeng</groupId>
 	<artifactId>minicache-spring-boot-starter</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-RELEASE</version>
 	<name>minicache</name>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
