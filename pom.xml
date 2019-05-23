@@ -158,12 +158,27 @@
 				</executions>
 			</plugin>
 
+
+
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.5.1</version>
 				<configuration>
 					<source>${java.version}</source>
 					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+				<configuration>
+					<tagBase>http://git.spt.com/team/supply.git</tagBase>
+					<connectionUrl>http://git.spt.com/team/supply.git</connectionUrl>
+					<useReleaseProfile>false</useReleaseProfile>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<preparationGoals>clean deploy</preparationGoals>
 				</configuration>
 			</plugin>
 
